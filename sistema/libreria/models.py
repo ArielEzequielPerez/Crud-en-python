@@ -7,7 +7,7 @@ class Libro(models.Model):
     imagen = models.ImageField(upload_to='imagenes', null =True, blank=True, verbose_name="Imagen")
     descripcion = models.TextField(null=True, verbose_name="Descripcion")
 
-    def __str__(self) -> str:
+    def __str__(self):
         fila = "Titulo: " + self.titulo + " Descripcion: " + self.descripcion
         return fila 
     def delete(self, using=None, keep_parents=False):
