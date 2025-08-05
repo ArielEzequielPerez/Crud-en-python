@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*.sqlite3         # Si querés excluir la DB
+*.log
+
+# Archivos de VSCode o IDE
+.vscode/
+.idea/
+
+# Archivos de Docker
+*.pid
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
